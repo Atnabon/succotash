@@ -7,8 +7,8 @@ type Socials = z.infer<typeof SocialsSchema>;
 export const siteIdentity = {
   name: "Atnabon Deressa",
   title: "I build AI systems that don't just work, they perform, scale, and deliver actionable insights.",
-  description: "Software engineer with a passion for writing optimized and efficient code. Building AI-driven solutions, from fraud detection to NLP dashboards, with expertise in full-stack development and machine learning.",
-  email: "atnabon@gmail.com",
+  description: "AI/ML Engineer & Forward Deployed Engineer specializing in agentic architectures, AI agent engineering, evaluation harness design, LangGraph multi-agent systems, MCP tool design, RAG pipelines, LLM-as-judge evaluation, and fine-tuning. Maintainer of Goderash — an open-source audit and governance fabric for regulated AI agents.",
+  email: "atnabond@gmail.com",
 };
 
 export const socials: Socials = {
