@@ -2,6 +2,50 @@ import type { Project } from "./schemas";
 
 export const projects: Project[] = [
   {
+    title: "Goderash",
+    description: "Audit & governance fabric for regulated AI agents. One-line SDK that emits every agent action to a SHA-256 hash-chained, tamper-evident ledger with multi-tenant isolation, schema upcasting, and data-contract enforcement.",
+    tags: ["Python", "TypeScript", "Anthropic", "OpenAI", "LangGraph"],
+    category: "Open Source",
+    type: "Work",
+    link: "https://github.com/Atnabon/goderash",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=1200",
+    stats: "PyPI + npm",
+    size: "wide",
+  },
+  {
+    title: "Oracle Forge",
+    description: "Multi-database natural-language analytics agent with context engineering and self-correcting execution over PostgreSQL, MongoDB, SQLite, and DuckDB. Evaluated on UC Berkeley DataAgentBench.",
+    tags: ["Python", "MCP Toolbox", "PostgreSQL", "MongoDB", "DuckDB"],
+    category: "Work",
+    type: "Work",
+    link: "https://github.com/Atnabon/oracle-forge",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=1200",
+    stats: "NL → SQL",
+    size: "large",
+  },
+  {
+    title: "Automaton Auditor",
+    description: "LangGraph multi-agent swarm for AI agent governance and auditing. 7-node swarm with three forensic detective agents and three judicial personas synthesised by a Chief Justice — 2x fan-out/fan-in topology with checkpointing.",
+    tags: ["Python", "LangGraph", "Pydantic", "LangSmith"],
+    category: "Work",
+    type: "Work",
+    link: "https://github.com/Atnabon/automaton-auditor",
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200",
+    stats: "Multi-Agent",
+    size: "large",
+  },
+  {
+    title: "Document Intelligence Refinery",
+    description: "Agentic pipeline for enterprise document extraction. 5-stage pipeline (triage → extraction → chunking → indexing → query) handling native digital, scanned, mixed-layout, and table-heavy documents with confidence-gated strategy escalation.",
+    tags: ["Python", "Docling", "Ollama VLM", "ChromaDB", "Pydantic"],
+    category: "Work",
+    type: "Work",
+    link: "https://github.com/Atnabon/document-intelligence-refinery",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
+    stats: "Enterprise AI",
+    size: "large",
+  },
+  {
     title: "Legacy-Code-Cartographer",
     description: "Multi-agent codebase analysis system that accelerates developer onboarding by mapping code architecture, data flows, and relationships using specialized AI agents.",
     tags: ["Python", "LangGraph", "Multi-Agent", "AST"],
@@ -10,63 +54,40 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/Legacy-Code-Cartographer",
     image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200",
     stats: "AI Agents",
-    size: "wide"
+    size: "wide",
   },
   {
-    title: "Document Intelligence Refinery",
-    description: "Agentic pipeline for extracting structured data from heterogeneous PDF documents at enterprise scale with 5-stage architecture and cost-conscious design.",
-    tags: ["Python", "ChromaDB", "Ollama", "Pydantic"],
+    title: "CashGO",
+    description: "Co-built a cross-platform iOS/Android remittance app driving $1M+ in daily transaction volume, supporting Visa/MasterCard inbound transfers, bank-account settlement, and branch cash pickup with instant settlement and zero customer fees.",
+    tags: ["FinTech", "React Native", "iOS/Android"],
     category: "Work",
     type: "Work",
-    link: "https://github.com/Atnabon/document-intelligence-refinery",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200",
-    stats: "Enterprise AI",
-    size: "large"
+    link: "https://play.google.com/store/apps/details?id=com.bankofabyssinia.cashgo",
+    image: "https://www.cashgoethiopia.com/_next/image?url=%2Fcash-go-blue.png&w=256&q=75",
+    stats: "$1M+ Daily · 100K+ Downloads",
+    size: "large",
   },
   {
     title: "Dashen Super App",
-    description: "Developed a mobile super-app with pixel-perfect design on both Android and iOS platforms.",
+    description: "Co-developed a cross-platform iOS/Android super-app for Dashen Bank reaching 1M+ downloads, unifying core banking, bill payment, account management, and lifestyle services behind a single secure interface.",
     tags: ["FinTech", "React Native", "Android/iOS"],
     category: "Work",
     type: "Work",
     link: "https://play.google.com/store/apps/details?id=com.dashen.dashensuperapp",
     image: "https://dashenbanksc.com/wp-content/uploads/Dashen-Bank-Logo-Addis-Ababa-Ethiopia.png",
-    stats: "Banking",
-    size: "normal"
+    stats: "1M+ Downloads",
+    size: "normal",
   },
   {
     title: "TeleTV",
-    description: "Entertainment super-app player reaching 10M+ users. Implemented adaptive bitrate streaming and DRM-protected video playback.",
+    description: "Entertainment super-app player. Implemented adaptive bitrate streaming and DRM-protected video playback inside a mobile super-app, improving reliability across variable network conditions.",
     tags: ["Mobile", "Streaming", "DRM", "React Native"],
     category: "Work",
     type: "Work",
     link: "https://play.google.com/store/apps/details?id=com.eaglelionsystems.teletv",
     image: "https://teletv.et/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f9ffa8ce.png&w=1920&q=100",
     stats: "100K+ Users",
-    size: "large"
-  },
-  
-  {
-    title: "Automaton Auditor",
-    description: "Agentic swarm system built on LangGraph that performs repository audits using a dialectical judicial framework with parallel evidence collection.",
-    tags: ["Python", "LangGraph", "Ollama", "Pydantic"],
-    category: "Work",
-    type: "Work",
-    link: "https://github.com/Atnabon/automaton-auditor",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=1200",
-    stats: "Multi-Agent",
-    size: "large"
-  },
-  {
-    title: "CashGO",
-    description: "Foreign remittance app driving over $1M daily volume into Ethiopia's economy with secure cross-border transactions.",
-    tags: ["FinTech", "Mobile", "Security"],
-    category: "Work",
-    type: "Work",
-    link: "https://play.google.com/store/apps/details?id=com.bankofabyssinia.cashgo",
-    image: "https://www.cashgoethiopia.com/_next/image?url=%2Fcash-go-blue.png&w=256&q=75",
-    stats: "$1M+ Daily",
-    size: "large"
+    size: "large",
   },
   {
     title: "Financial Fraud Detection",
@@ -77,7 +98,7 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/financial-fraud-detection",
     image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=1200",
     stats: "ML + XAI",
-    size: "normal"
+    size: "normal",
   },
   {
     title: "Credit Scoring Model",
@@ -88,9 +109,8 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/credit-scoring",
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=1200",
     stats: "FinTech ML",
-    size: "normal"
+    size: "normal",
   },
-  
   {
     title: "AI Content Generator",
     description: "Multi-provider AI content generation framework for music, video, and images. Integrates Google Lyria/Veo, AIMLAPI, and KlingAI with async pipeline orchestration.",
@@ -100,7 +120,7 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/ai-content-generator",
     image: "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&q=80&w=1200",
     stats: "Multi-Provider",
-    size: "wide"
+    size: "wide",
   },
   {
     title: "AI Tutor",
@@ -111,7 +131,7 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/ai-tutor",
     image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=1200",
     stats: "RAG App",
-    size: "normal"
+    size: "normal",
   },
   {
     title: "EthioMart",
@@ -122,39 +142,6 @@ export const projects: Project[] = [
     link: "https://github.com/Atnabon/EthioMart",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
     stats: "NLP Pipeline",
-    size: "normal"
-  },
-  {
-    title: "Telecom Growth Analysis",
-    description: "Telecommunications user behavior analysis with K-Means clustering for engagement segmentation and handset usage trend identification.",
-    tags: ["Python", "scikit-learn", "K-Means", "EDA"],
-    category: "Work",
-    type: "Research",
-    link: "https://github.com/Atnabon/telecom-growth-analysis",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1200",
-    stats: "Analytics",
-    size: "normal"
-  },
-  {
-    title: "Time Series Portfolio Optimization",
-    description: "Forecasting models for portfolio management optimization using time series analysis techniques.",
-    tags: ["Python", "Time Series", "Finance", "ML"],
-    category: "Work",
-    type: "Research",
-    link: "https://github.com/Atnabon/Time-Series-Forecasting-for-Portfolio-Management-Optimization",
-    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1200",
-    stats: "Forecasting",
-    size: "normal"
-  },
-  {
-    title: "Issue Tracker",
-    description: "Full-stack issue tracking application built with Next.js, TypeScript, Prisma ORM, and Tailwind CSS with email notifications.",
-    tags: ["Next.js", "TypeScript", "Prisma", "Tailwind"],
-    category: "Side Projects",
-    type: "Side Projects",
-    link: "https://github.com/Atnabon/issue_tracker",
-    image: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?auto=format&fit=crop&q=80&w=1200",
-    stats: "Full Stack",
-    size: "normal"
+    size: "normal",
   },
 ];
