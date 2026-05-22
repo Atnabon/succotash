@@ -35,23 +35,28 @@
 
     <Motion variants={itemVariants} let:motion>
       <p class="intro" use:motion>
-        I'm <strong class="name-highlight">Atnabon</strong>. I build AI systems that don't just work, they perform, scale, and deliver actionable insights.  Specialized in agentic architectures, LLM powered applications, mobile super-apps, scalable data pipelines, and high reliability AI infrastructure.
+        I'm <strong class="name-highlight">Atnabon</strong>. I build AI systems
+        that don't just work — they perform, scale, and deliver actionable
+        insights. Specialized in agentic architectures, AI agent engineering,
+        evaluation harness design, and Forward Deployed Engineering. Maintainer
+        of <strong class="name-highlight">Goderash</strong>, an open-source
+        governance fabric for regulated AI agents.
       </p>
     </Motion>
 
     <Motion variants={itemVariants} let:motion>
       <div class="specs" use:motion>
         <div class="spec-item">
-          <Smartphone size={18} class="accent-icon" />
-          <span>Full Stack</span>
+          <Zap size={18} class="accent-icon" />
+          <span>AI/ML</span>
         </div>
         <div class="spec-item">
           <Layers size={18} class="accent-icon" />
-          <span>Machine Learning</span>
+          <span>Agentic Systems</span>
         </div>
         <div class="spec-item">
-          <Zap size={18} class="accent-icon" />
-          <span>AI Agents</span>
+          <Smartphone size={18} class="accent-icon" />
+          <span>Forward Deployed Engineering</span>
         </div>
       </div>
     </Motion>
