@@ -2,27 +2,25 @@ import type { Experience } from "./schemas";
 
 export const experience: Experience[] = [
   {
-    role: "Software Engineer",
+    role: "AI/ML Engineer",
     company: "EagleLion System Technology",
-    period: "Jan 2024 - Present",
+    period: "Feb 2026 - Present",
     description: [
-      "Developed a mobile super-app with pixel-perfect design on both Android and iOS platforms.",
-      "Implemented adaptive bitrate streaming in a DRM-protected video player.",
-      "Built a comprehensive sentiment analysis and marketing dashboard using NLP techniques, integrating data from the bank's mobile super app, social media, and customer channels."
+      "Built an NLP-powered sentiment analysis and marketing dashboard integrating data from a mobile super-app, social media, and customer channels, delivering real-time insights across 5+ data streams for banking stakeholders.",
+      "Contributed to AI features in products reaching millions of users, including CashGO (foreign remittance app driving $1M+ in daily transaction volume) and Dashen Super App (1M+ downloads).",
     ],
     logo: "/eaglelion-logo.png",
     link: "https://eaglelionsystems.com",
   },
   {
-    role: "ML/Data Engineering Trainee",
-    company: "10 Academy (Kifiya AI Mastery)",
-    period: "Aug 2024 - Nov 2024",
+    role: "Software Engineer",
+    company: "EagleLion System Technology",
+    period: "Jan 2024 - Jan 2026",
     description: [
-      "Completed intensive 3-month program in Machine Learning Engineering, Data Engineering, and Financial Analysis.",
-      "Built end-to-end ML projects including credit scoring, fraud detection, and sales forecasting models.",
-      "Graduated with distinction."
+      "Developed a cross-platform mobile super-app for Android and iOS enabling merchants to manage transactions, view analytics, and handle customer interactions; achieved pixel-perfect parity across both platforms.",
+      "Implemented adaptive bitrate streaming inside a DRM-protected video player for the TeleTV entertainment platform, improving playback reliability across variable network conditions.",
     ],
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQGxpeU8pNfppw/company-logo_200_200/company-logo_200_200/0/1630502357436/10_acad_logo?e=1775692800&v=beta&t=KlJ_IypZjmKkerjXgrAp6JGMjje4NjjAcKngX-CrcBw",
-    link: "#",
+    logo: "/eaglelion-logo.png",
+    link: "https://eaglelionsystems.com",
   },
 ];
